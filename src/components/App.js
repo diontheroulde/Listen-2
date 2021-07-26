@@ -1,10 +1,15 @@
 import React from "react";
 
+import Header from "./Header"
+import SongContainer from "./SongContainer"
+
 
 const App = () => {
-  
   return (
-    <h1>Listen 2</h1>
+    <div>
+      <Header />
+      <SongContainer />
+    </div>
   );
 }
 

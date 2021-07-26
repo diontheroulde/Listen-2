@@ -1,5 +1,52 @@
 {
   "songs": [
-   
+    {
+      "title": "Coming Home",
+      "image": "https://www.srcvinyl.ca/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/l/e/leoncoming.jpg",
+      "artist": "Leon Bridges",
+      "id": 1
+    },
+    {
+      "title": "Casio",
+      "image": "https://th.bing.com/th/id/OIP.Mb7in0ygfY_GEImw8nW3ggHaHa?pid=ImgDet&rs=1",
+      "artist": "Jungle",
+      "id": 3
+    },
+    {
+      "title": "Be11a Ciao",
+      "image": "https://th.bing.com/th/id/OIP.RZ5C86o46QFWDhqfaf5yMAHaHa?pid=ImgDet&rs=1",
+      "artist": "Hopsin",
+      "id": 4
+    },
+    {
+      "title": "I Don't Wanna Wait",
+      "image": "https://th.bing.com/th/id/OIP.IexuPsvsba0Z4W-o3LY-xgAAAA?pid=ImgDet&rs=1",
+      "artist": "Kelly Finnigan",
+      "id": 5
+    },
+    {
+      "title": "Solamente",
+      "image": "https://th.bing.com/th/id/OIP.FuOwC7KS5BFttvUVbCkLQAHaHa?pid=ImgDet&rs=1",
+      "artist": "Tai Verdes",
+      "id": 6
+    },
+    {
+      "title": "All Over You",
+      "image": "https://th.bing.com/th/id/R.fc10c666fd178db6144434f858b6e944?rik=Ljl6KpHrlYdp1Q&riu=http%3a%2f%2fwww.rockalyrics.com%2fimages%2fdiscos%2flive%2fthrowingcopper.jpeg&ehk=l57khxnWW7NsPArg0M73V3gXRaUU7l7tsb2pSHXmtfM%3d&risl=&pid=ImgRaw",
+      "artist": "Live",
+      "id": 7
+    },
+    {
+      "title": "Let Me Love You (Extended Mix)",
+      "image": "https://edmwaves.org/wp-content/uploads/2019/06/Weiss-UK-Let-Me-Love-You-300x300.jpg",
+      "artist": "Weiss",
+      "id": 8
+    },
+    {
+      "title": "Close the Door",
+      "image": "https://huheard.com/wp-content/uploads/2020/03/we-close-.png",
+      "artist": "Weston Estate",
+      "id": 9
+    }
   ]
 }

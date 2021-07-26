@@ -1,1 +1,149 @@
+:root {
+    --green: rgba(181, 194, 250, 0.5);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.25rem 1rem;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    background-color: var(--green);
+    color: white;
+  }
+  
+  .app {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  
+  .logo {
+    font-size: 1.25em;
+    padding-left: 0.5rem;
+    color: transparent;
+    text-shadow: 0 0 0 var(--green);
+  }
+  
+  main {
+    padding: 0 1rem;
+  }
+  
+  .new-song-form {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    background-color: rgba(181, 194, 250, 0.5);
+  }
+  
+  .new-song-form form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .new-song-form input {
+    margin-right: 2rem;
+    flex: 1;
+  }
+  
+  .new-song-form button {
+    width: 150px;
+  }
+  
+  .searchbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input {
+    padding: 0.25rem;
+    border: none;
+    font-family: inherit;
+    font-size: 1.2em;
+    border-bottom: 2px solid gray;
+    transition: all 0.2s;
+    width: 100%;
+  }
 
+  li {
+    list-style: none;
+  }
+  
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--green);
+  }
+  
+  .cards {
+    list-style: none;
+  }
+  
+  li.card {
+    text-align: center;
+  border: grey solid 1px;
+  border-radius: 25px;
+  padding: 1rem;
+  width: 217px;
+  height: 384px;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px rgba(181, 194, 250, 0.5)
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card button {
+    margin-top: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: calc(33% - 2rem);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .card {
+      width: calc(25% - 2rem);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card {
+      width: calc(20% - 2rem);
+    }
+  }
