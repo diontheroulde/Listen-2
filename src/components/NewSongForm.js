@@ -67,7 +67,7 @@ const NewSongForm = ({ songs, setSongs }) => {
             value={formData.artist}
             onChange={handleChange}
             />
-            <button type="submit" onClick={handleClick} >+ Add Song</button>
+            <button className="add-new-song" type="submit" onClick={handleClick} >+ Add Song</button>
           </form>
         </div>
       );

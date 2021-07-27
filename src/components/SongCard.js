@@ -8,6 +8,7 @@ const SongCard = ({ song }) => {
           <img src={image} alt={title} />
           <h4>Song: {title}</h4>
           <p>Artist: {artist}</p>
+          <button>♡</button>
         </li>
       );
 }
