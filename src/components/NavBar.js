@@ -24,16 +24,6 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
-        to="/about"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "#4d4dff",
-        }}
-      >
-        About
-      </NavLink>
-      <NavLink
         to="/favorites"
         exact
         style={linkStyles}
@@ -42,6 +32,16 @@ const Navbar = () => {
         }}
       >
         Favorites
+      </NavLink>
+      <NavLink
+        to="/videos"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "#4d4dff",
+        }}
+      >
+        Videos
       </NavLink>
     </div>
   );

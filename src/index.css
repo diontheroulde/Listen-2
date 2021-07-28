@@ -99,7 +99,7 @@
     font-size: 1.2em;
     border-bottom: 2px solid gray;
     transition: all 0.2s;
-    width: 100%;
+    width: 20%;
   }
 
   li {
@@ -115,7 +115,7 @@
     list-style: none;
   }
   
-  li.card {
+  .layout_body li {
     text-align: center;
     border: grey solid 1px;
     border-radius: 25px;
@@ -128,8 +128,20 @@
     box-shadow: 3px 4px rgba(181, 194, 250, 0.5)
   }
 
+  
+
+  .song-container li {
+    text-align: center;
+    height: 384px;
+    top: 50%;
+    left: 45%;
+    margin-top: 35px;
+  }
+
   .layout_body {
     display: inline-flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
   }
   
   .card img {
@@ -138,6 +150,9 @@
   
   .card button {
     font-size: 20px;
+    margin-top: 2px;
+    border-radius: 20px;
+    color: #9999ff;
   }
   
   @media (min-width: 768px) {
