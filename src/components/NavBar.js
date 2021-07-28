@@ -1,14 +1,14 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const linkStyles = {
-  width: "100px",
-  padding: "12px",
-  margin: "0 6px 6px",
-  background: "#ccccff",
-  textDecoration: "none",
-  color: "white",
-};
+  width: '100px',
+  padding: '12px',
+  margin: '0 6px 6px',
+  background: '#ccccff',
+  textDecoration: 'none',
+  color: 'white'
+}
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "#4d4dff",
+          background: '#4d4dff'
         }}
       >
         Home
@@ -28,7 +28,7 @@ const Navbar = () => {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "#4d4dff",
+          background: '#4d4dff'
         }}
       >
         Favorites
@@ -38,13 +38,13 @@ const Navbar = () => {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "#4d4dff",
+          background: '#4d4dff'
         }}
       >
-        Videos
+        Discover
       </NavLink>
     </div>
-  );
+  )
 }
 
-export default Navbar; 
+export default Navbar

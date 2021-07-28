@@ -5,7 +5,7 @@
       "image": "https://www.srcvinyl.ca/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/l/e/leoncoming.jpg",
       "artist": "Leon Bridges",
       "id": 1,
-      "favorited": true
+      "favorited": false
     },
     {
       "title": "Casio",
@@ -25,13 +25,15 @@
       "title": "I Don't Wanna Wait",
       "image": "https://th.bing.com/th/id/OIP.IexuPsvsba0Z4W-o3LY-xgAAAA?pid=ImgDet&rs=1",
       "artist": "Kelly Finnigan",
-      "id": 5
+      "id": 5,
+      "favorited": false
     },
     {
       "title": "Solamente",
       "image": "https://th.bing.com/th/id/OIP.FuOwC7KS5BFttvUVbCkLQAHaHa?pid=ImgDet&rs=1",
       "artist": "Tai Verdes",
-      "id": 6
+      "id": 6,
+      "favorited": true
     },
     {
       "title": "All Over You",
@@ -56,6 +58,27 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg/1200px-Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg",
       "artist": "Kygo & Sasha Alex Sloan",
       "id": 10
+    },
+    {
+      "title": "K.O.D",
+      "image": "https://th.bing.com/th/id/OIP.iZhiYuE9_izuHaf2c76IiwHaHa?w=170&h=180&c=7&o=5&dpr=2&pid=1.7",
+      "artist": "J.Cole",
+      "id": 11,
+      "favorited": true
+    },
+    {
+      "title": "Alps",
+      "image": "https://th.bing.com/th/id/R.34cd953a8eb62c62c737fe9130a7418f?rik=HzKKGLdRjBY5Ew&pid=ImgRaw",
+      "artist": "Novo Amor",
+      "id": 12,
+      "favorited": true
+    },
+    {
+      "title": "Never Gonna Give You Up",
+      "image": "RickRoll.jpg",
+      "artist": "?",
+      "id": 13,
+      "favorited": false
     }
   ]
 }

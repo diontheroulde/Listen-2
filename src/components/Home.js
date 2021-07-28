@@ -1,32 +1,31 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 
-import NewSongForm from "./NewSongForm"
-import SongCard from "./SongCard"
-
+import NewSongForm from './NewSongForm'
+import SongCard from './SongCard'
 
 const Home = ({ songs, setSongs }) => {
-    const [songIndex, setSongIndex] = useState(0)
+  const [songIndex, setSongIndex] = useState(0)
 
-    const songComponents = songs
-        .slice(songIndex, songIndex + 1)
-        .map(song => (
-            <SongCard 
+  const songComponents = songs
+    .slice(songIndex, songIndex + 1)
+    .map(song => (
+            <SongCard
             key={song.id}
             song={song}
             songs={songs}
             setSongs={setSongs}
             />
-        ))
+    ))
 
     const handleClickNext = () => {
-        setSongIndex((songIndex) => (songIndex + 1) % songs.length)
+      setSongIndex((songIndex) => (songIndex + 1) % songs.length)
     }
-
+  
     const handleClickBack = () => {
-        setSongIndex((songIndex) => (songIndex - 1) % songs.length)
+      setSongIndex((songIndex) => (songIndex - 1) % songs.length)
     }
 
-    return (
+  return (
         <div>
             <h1>Listen 🎧</h1>
             <NewSongForm songs={songs} setSongs={setSongs}/>
@@ -36,7 +35,7 @@ const Home = ({ songs, setSongs }) => {
                 <button className="right" onClick={handleClickNext}> ❯ </button>
             </div>
         </div>
-    )
+  )
 }
 
 export default Home

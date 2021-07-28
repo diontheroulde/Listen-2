@@ -1,8 +1,8 @@
-import React from "react"
-import YouTubeEmbed from "./YouTubeEmbed"
+import React from 'react'
+import YouTubeEmbed from './YouTubeEmbed'
 
-const Videos = () => {
-  return(
+const Discover = () => {
+  return (
     <div className="video-list">
       <YouTubeEmbed embedId="MTrKkqE9p1o" />
       <YouTubeEmbed embedId="7nJRGARveVc" />
@@ -11,4 +11,4 @@ const Videos = () => {
   )
 }
 
-export default Videos
+export default Discover

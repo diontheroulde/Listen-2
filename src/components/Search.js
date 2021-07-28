@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const Search = ({ search, setSearch }) => {
   const handleChange = (event) => {
@@ -16,7 +16,7 @@ const Search = ({ search, setSearch }) => {
           onChange={handleChange}
       />
     </div>
-    )
+  )
 }
 
 export default Search
