@@ -13,6 +13,8 @@ const Home = ({ songs, setSongs }) => {
             <SongCard 
             key={song.id}
             song={song}
+            songs={songs}
+            setSongs={setSongs}
             />
         ))
 
@@ -20,13 +22,18 @@ const Home = ({ songs, setSongs }) => {
         setSongIndex((songIndex) => (songIndex + 1) % songs.length)
     }
 
+    const handleClickBack = () => {
+        setSongIndex((songIndex) => (songIndex - 1) % songs.length)
+    }
+
     return (
         <div>
             <h1>Listen 🎧</h1>
             <NewSongForm songs={songs} setSongs={setSongs}/>
             <div className="song-container">
+                <button className="left" onClick={handleClickBack}> ❮ </button>
                 {songComponents}
-                <button onClick={handleClickNext}> ❯ </button>
+                <button className="right" onClick={handleClickNext}> ❯ </button>
             </div>
         </div>
     )

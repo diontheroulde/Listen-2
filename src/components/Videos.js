@@ -1,7 +1,14 @@
-import React from "react";
+import React from "react"
+import YouTubeEmbed from "./YouTubeEmbed"
 
 const Videos = () => {
-  return <h1>This is my about component!</h1>;
+  return(
+    <div className="video-list">
+      <YouTubeEmbed embedId="MTrKkqE9p1o" />
+      <YouTubeEmbed embedId="7nJRGARveVc" />
+      <YouTubeEmbed embedId="JxsdmM838qM" />
+    </div>
+  )
 }
 
-export default Videos;
+export default Videos

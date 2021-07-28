@@ -4,19 +4,22 @@
       "title": "Coming Home",
       "image": "https://www.srcvinyl.ca/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/l/e/leoncoming.jpg",
       "artist": "Leon Bridges",
-      "id": 1
+      "id": 1,
+      "favorited": true
     },
     {
       "title": "Casio",
       "image": "https://th.bing.com/th/id/OIP.Mb7in0ygfY_GEImw8nW3ggHaHa?pid=ImgDet&rs=1",
       "artist": "Jungle",
-      "id": 3
+      "id": 3,
+      "favorited": true
     },
     {
       "title": "Be11a Ciao",
       "image": "https://th.bing.com/th/id/OIP.RZ5C86o46QFWDhqfaf5yMAHaHa?pid=ImgDet&rs=1",
       "artist": "Hopsin",
-      "id": 4
+      "id": 4,
+      "favorited": true
     },
     {
       "title": "I Don't Wanna Wait",
@@ -47,6 +50,12 @@
       "image": "https://huheard.com/wp-content/uploads/2020/03/we-close-.png",
       "artist": "Weston Estate",
       "id": 9
+    },
+    {
+      "title": "I'll Wait",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg/1200px-Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg",
+      "artist": "Kygo & Sasha Alex Sloan",
+      "id": 10
     }
   ]
 }

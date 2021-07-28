@@ -27,10 +27,17 @@
     cursor: pointer;
   }
 
-  .song-container button {
+  .right {
     background-color: transparent;
     font-size: 80px;
     color: rgba(181, 194, 250, 0.5)
+  }
+
+  .left {
+    background-color: transparent;
+    font-size: 80px;
+    color: rgba(181, 194, 250, 0.5)
+
   }
 
   .song-container {
@@ -128,7 +135,16 @@
     box-shadow: 3px 4px rgba(181, 194, 250, 0.5)
   }
 
-  
+  .video-list {
+    display: inline-flex;
+  }
+
+  .video-responsive iframe {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 600px;
+    height: 400px;
+  }
 
   .song-container li {
     text-align: center;

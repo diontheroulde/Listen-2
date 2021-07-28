@@ -19,7 +19,7 @@ const App = () => {
   },[])
 
   const filteredSongs = songs.filter((song) => (
-    song.title.toLowerCase().includes(search.toLowerCase())
+    song.favorited && song.title.toLowerCase().includes(search.toLowerCase())
  ))
 
   return (
