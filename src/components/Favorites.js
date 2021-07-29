@@ -5,7 +5,7 @@ import { Layout } from 'playbook-ui'
 import Search from './Search'
 import SongCard from './SongCard'
 
-const Favorites = ({ songs, search, setSearch, setSongs }) => {
+const Favorites = ({ songs, search, setSearch, setSongs, allSongs }) => {
   console.log(songs)
 
   const songComponents = songs
@@ -13,7 +13,7 @@ const Favorites = ({ songs, search, setSearch, setSongs }) => {
             <SongCard
             key={song.id}
             song={song}
-            songs={songs}
+            songs={allSongs}
             setSongs={setSongs}
             />
     ))

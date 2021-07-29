@@ -12,7 +12,7 @@
       "image": "https://th.bing.com/th/id/OIP.Mb7in0ygfY_GEImw8nW3ggHaHa?pid=ImgDet&rs=1",
       "artist": "Jungle",
       "id": 3,
-      "favorited": true
+      "favorited": false
     },
     {
       "title": "Be11a Ciao",
@@ -26,20 +26,21 @@
       "image": "https://th.bing.com/th/id/OIP.IexuPsvsba0Z4W-o3LY-xgAAAA?pid=ImgDet&rs=1",
       "artist": "Kelly Finnigan",
       "id": 5,
-      "favorited": false
+      "favorited": true
     },
     {
       "title": "Solamente",
       "image": "https://th.bing.com/th/id/OIP.FuOwC7KS5BFttvUVbCkLQAHaHa?pid=ImgDet&rs=1",
       "artist": "Tai Verdes",
       "id": 6,
-      "favorited": true
+      "favorited": false
     },
     {
       "title": "All Over You",
       "image": "https://th.bing.com/th/id/R.fc10c666fd178db6144434f858b6e944?rik=Ljl6KpHrlYdp1Q&riu=http%3a%2f%2fwww.rockalyrics.com%2fimages%2fdiscos%2flive%2fthrowingcopper.jpeg&ehk=l57khxnWW7NsPArg0M73V3gXRaUU7l7tsb2pSHXmtfM%3d&risl=&pid=ImgRaw",
       "artist": "Live",
-      "id": 7
+      "id": 7,
+      "favorited": true
     },
     {
       "title": "Let Me Love You (Extended Mix)",
@@ -52,7 +53,8 @@
       "title": "Close the Door",
       "image": "https://huheard.com/wp-content/uploads/2020/03/we-close-.png",
       "artist": "Weston Estate",
-      "id": 9
+      "id": 9,
+      "favorited": false
     },
     {
       "title": "I'll Wait",
@@ -66,7 +68,7 @@
       "image": "https://th.bing.com/th/id/OIP.iZhiYuE9_izuHaf2c76IiwHaHa?w=170&h=180&c=7&o=5&dpr=2&pid=1.7",
       "artist": "J.Cole",
       "id": 11,
-      "favorited": true
+      "favorited": false
     },
     {
       "title": "Alps",
@@ -100,13 +102,14 @@
       "image": "https://th.bing.com/th/id/OIP.B9-CAPA8R1bPVIFc6_43_wHaHa?pid=ImgDet&rs=1",
       "artist": "The Midnight",
       "id": 16,
-      "favorited": true
+      "favorited": false
     },
     {
       "title": "Fly Away",
       "image": "https://th.bing.com/th/id/R.74b2c3413ac03c8c84414f8ffb80f223?rik=Bb1Qrs6iaMBXkg&pid=ImgRaw",
       "artist": "Tones And I",
-      "id": 17
+      "id": 17,
+      "favorited": false
     },
     {
       "title": "Adeline",
@@ -126,7 +129,59 @@
       "title": "Take Me Where Your Heart Is",
       "image": "https://www.hiphopwave.com/wp-content/uploads/2020/12/DOWNLOAD-MP3-Q-%E2%80%93-Take-Me-Where-Your-Heart-Is.jpg",
       "artist": "Q",
-      "id": 20
+      "id": 20,
+      "favorited": true
+    },
+    {
+      "title": "Don't be Afraid",
+      "image": "https://t2.genius.com/unsafe/440x440/https:%2F%2Fimages.genius.com%2Faed853d2c67eb6f0bb35afd1198f9c81.640x640x1.jpg",
+      "artist": "Tycho Jones",
+      "id": 21
+    },
+    {
+      "title": "Swim Good",
+      "image": "https://th.bing.com/th/id/R.b8e6d2571c06fd6fccf6d1d0d8705ae0?rik=mDPTcDpwnhUZzA&riu=http%3a%2f%2fimages.genius.com%2f8a7f0b830b07d967861df3f03d60e1c4.1000x1000x1.jpg&ehk=PxutMvU8zOe1gqUi1Nt3sr84MFiQZ6W89fsfBml6Ljg%3d&risl=&pid=ImgRaw",
+      "artist": "Frank Ocean",
+      "id": 22,
+      "favorited": true
+    },
+    {
+      "title": "High School Reunion",
+      "image": "https://i1.wp.com/lyricsfa.com/wp-content/uploads/2019/08/SAINt-JHN-%E2%80%93-High-School-Reunion-Lyrics.jpg?fit=1000%2C1000&ssl=1",
+      "artist": "SAINt JHN",
+      "id": 23
+    },
+    {
+      "title": "A Real Hero",
+      "image": "https://i.scdn.co/image/1960447e566080b6cae1777b230d04a6a7c531ef",
+      "artist": "College & Electric Youth",
+      "id": 24,
+      "favorited": true
+    },
+    {
+      "title": "Inferno",
+      "image": "https://fanart.tv/fanart/music/773bc0c0-a4ae-45a9-b71d-356174b67c08/albumcover/velvet-5e197bedca0ab.jpg",
+      "artist": "JMSN",
+      "id": 25
+    },
+    {
+      "title": "Overnight",
+      "image": "https://images.genius.com/d6d354b3d4932b431d5d33090398f4f7.1000x1000x1.jpg",
+      "artist": "Parcels",
+      "id": 26
+    },
+    {
+      "title": "Gaslight!",
+      "image": "https://images.genius.com/4d2c51b8501c263a479c667c166b5bdb.1000x1000x1.jpg",
+      "artist": "diveliner",
+      "id": 27
+    },
+    {
+      "title": "Westcoast Collective",
+      "image": "https://th.bing.com/th/id/OIP.P5iSxIJ6h2w1Z3ODnokpcQHaHa?pid=ImgDet&rs=1",
+      "artist": "Dominic Fike",
+      "id": 29,
+      "favorited": true
     }
   ]
 }

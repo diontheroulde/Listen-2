@@ -31,6 +31,7 @@ const App = () => {
           <Route exact path="/favorites">
             <Favorites
             songs={filteredSongs}
+            allSongs={songs}
             setSongs={setSongs}
             search={search}
             setSearch={setSearch}
