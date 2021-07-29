@@ -5,7 +5,7 @@
       "image": "https://www.srcvinyl.ca/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/l/e/leoncoming.jpg",
       "artist": "Leon Bridges",
       "id": 1,
-      "favorited": false
+      "favorited": true
     },
     {
       "title": "Casio",
@@ -45,7 +45,8 @@
       "title": "Let Me Love You (Extended Mix)",
       "image": "https://edmwaves.org/wp-content/uploads/2019/06/Weiss-UK-Let-Me-Love-You-300x300.jpg",
       "artist": "Weiss",
-      "id": 8
+      "id": 8,
+      "favorited": true
     },
     {
       "title": "Close the Door",
@@ -57,7 +58,8 @@
       "title": "I'll Wait",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg/1200px-Kygo_%26_Sasha_Sloan_-_I%27ll_Wait.jpg",
       "artist": "Kygo & Sasha Alex Sloan",
-      "id": 10
+      "id": 10,
+      "favorited": true
     },
     {
       "title": "K.O.D",
@@ -75,10 +77,56 @@
     },
     {
       "title": "Never Gonna Give You Up",
-      "image": "RickRoll.jpg",
-      "artist": "?",
+      "image": "https://th.bing.com/th/id/R.55d9c49dfc3035ae384a5b8163b256c5?rik=RlI%2bMCPwnqmmBg&riu=http%3a%2f%2fimages.genius.com%2f0a468b8c54bc6f751ba47c74bc409869.1000x1000x1.jpg&ehk=q%2bFK1R9QiCw6FzG4wwF8A6NL4s9KzYLGyBgqt8SiIqM%3d&risl=&pid=ImgRaw",
+      "artist": "Rick Astley",
       "id": 13,
       "favorited": false
+    },
+    {
+      "title": "A letter to my younger self",
+      "image": "https://t2.genius.com/unsafe/300x300/https:%2F%2Fimages.genius.com%2Faca807d1bc60e744224ecb4a950adef3.1000x1000x1.jpg",
+      "artist": "Ambar Lucid",
+      "id": 14
+    },
+    {
+      "title": "Bi Fren",
+      "image": "https://th.bing.com/th/id/OIP.8J3BHKrwalYz_m6vE_TzQgHaHa?pid=ImgDet&rs=1",
+      "artist": "Omar Apollo",
+      "id": 15,
+      "favorited": true
+    },
+    {
+      "title": "Los Angeles",
+      "image": "https://th.bing.com/th/id/OIP.B9-CAPA8R1bPVIFc6_43_wHaHa?pid=ImgDet&rs=1",
+      "artist": "The Midnight",
+      "id": 16,
+      "favorited": true
+    },
+    {
+      "title": "Fly Away",
+      "image": "https://th.bing.com/th/id/R.74b2c3413ac03c8c84414f8ffb80f223?rik=Bb1Qrs6iaMBXkg&pid=ImgRaw",
+      "artist": "Tones And I",
+      "id": 17
+    },
+    {
+      "title": "Adeline",
+      "image": "https://732204.smushcdn.com/1222810/wp-content/uploads/2019/02/thedip-1024x1024.jpg?lossy=1&strip=1&webp=1",
+      "artist": "The Dip",
+      "id": 18,
+      "favorited": true
+    },
+    {
+      "title": "Free Mind",
+      "image": "https://th.bing.com/th/id/OIP.OHv_Ro7FnE1QM4cC7AePWgHaHa?pid=ImgDet&rs=1",
+      "artist": "Tems",
+      "id": 19,
+      "favorited": true
+    },
+    {
+      "title": "Take Me Where Your Heart Is",
+      "image": "https://www.hiphopwave.com/wp-content/uploads/2020/12/DOWNLOAD-MP3-Q-%E2%80%93-Take-Me-Where-Your-Heart-Is.jpg",
+      "artist": "Q",
+      "id": 20
     }
   ]
 }

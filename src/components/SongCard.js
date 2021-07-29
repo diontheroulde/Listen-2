@@ -28,6 +28,12 @@ const SongCard = ({ song, songs, setSongs }) => {
       )
   }
 
+  const handleInfoClick = (artist, title) => {
+    fetch(`https://api.lyrics.ovh/v1/${artist}/${title}`)
+      .then(res => res.json())
+      .then(data => console.log(data))
+  }
+
   return (
         <li className="card">
           <img src={image} alt={title} />
@@ -40,6 +46,7 @@ const SongCard = ({ song, songs, setSongs }) => {
             : (
           <button onClick={() => handleSongLike(id, true)}>♡</button>
               )}
+          <button onClick={handleInfoClick}>+</button>
       </li>
   )
 }

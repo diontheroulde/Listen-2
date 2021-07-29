@@ -137,13 +137,17 @@
 
   .video-list {
     display: inline-flex;
+    flex-wrap: wrap;
+    margin: 40px;
   }
 
   .video-responsive iframe {
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 20px;
-    width: 600px;
-    height: 400px;
+    margin-right: 20px;
+    height: 200px;
+    width: 300px;
   }
 
   .song-container li {
@@ -157,6 +161,7 @@
   .layout_body {
     display: inline-flex;
     margin-top: 50px;
+    margin-left: 80px;
     flex-wrap: wrap;
   }
   

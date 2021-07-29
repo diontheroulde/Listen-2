@@ -17,13 +17,12 @@ const Home = ({ songs, setSongs }) => {
             />
     ))
 
-    const handleClickNext = () => {
-      setSongIndex((songIndex) => (songIndex + 1) % songs.length)
-    }
-  
-    const handleClickBack = () => {
-      setSongIndex((songIndex) => (songIndex - 1) % songs.length)
-    }
+  const handleClickNext = () => {
+    setSongIndex((songIndex) => (songIndex + 1) % songs.length)
+  }
+  const handleClickBack = () => {
+    setSongIndex((songIndex) => (songIndex - 1) % songs.length)
+  }
 
   return (
         <div>
