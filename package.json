@@ -1,6 +1,9 @@
 {
   "name": "Listen",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.17.0"
+  },
   "private": true,
   "dependencies": {
     "json-server": "^0.16.3",
