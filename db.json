@@ -187,7 +187,8 @@
       "title": "Keep Moving",
       "image": "https://th.bing.com/th/id/OIP.5BrIuk0U6NrpfWTEuaNgGAHaHa?pid=ImgDet&rs=1",
       "artist": "Jungle",
-      "id": 30
+      "id": 30,
+      "favorited": true
     }
   ]
 }
