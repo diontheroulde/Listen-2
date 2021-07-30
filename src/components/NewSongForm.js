@@ -22,7 +22,7 @@ const NewSongForm = ({ songs, setSongs }) => {
       artist: formData.artist
     }
 
-    fetch('http://localhost:6001/songs', {
+    fetch(`${process.env.REACT_APP_API_URL}/songs`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
