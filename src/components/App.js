@@ -12,7 +12,7 @@ const App = () => {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
-    fetch('http://localhost:6001/songs')
+    fetch(`${process.env.REACT_APP_API_URL}/songs`)
       .then(res => res.json())
       .then(data => setSongs(data))
   }, [])

@@ -6,7 +6,7 @@ const SongCard = ({ song, songs, setSongs }) => {
   const { title, id, image, artist, favorited } = selectedSong
 
   const handleSongLike = (songId, liked) => {
-    fetch(`http://localhost:6001/songs/${songId}`, {
+    fetch(`${process.env.REACT_APP_API_URL}/songs/${songId}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'
